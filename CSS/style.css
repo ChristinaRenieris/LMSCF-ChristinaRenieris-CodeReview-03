@@ -1,0 +1,218 @@
+.Container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    margin: 0;
+}
+
+.Header {
+    background-color: rgb(233, 226, 226);
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.Logo1 {
+    margin-top: 1em;
+    width: 10em;
+    height: 3em;
+}
+
+.banner1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.NavTop {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #8E1616;
+    list-style-type: none;
+    padding: 1em;
+}
+
+li {
+    margin-left: 0.5em;
+    display: inline;
+}
+
+a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #666666;
+    display: inline;
+}
+
+.cI {
+    /*Car Insurance text */
+    margin: 0;
+    font-size: 2em;
+    color: white;
+    padding: 0.5em;
+    padding-left: 2em;
+}
+
+.carInsurance {
+    /*img back, centered*/
+    background-image: url("C:/Users/Chris/Desktop/LMSCF-ChristinaRenieris-CodeReview-03/IMG/traffic.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 25em;
+    width: 100%;
+    padding-bottom: 4em;
+}
+
+.input {
+    /*adjusting input div sizes */
+    margin: 0;
+    width: 12em;
+}
+
+.input>input,
+.input>select {
+    font-size: 1em;
+    width: 8em;
+}
+
+.submit {
+    /*adjusting submit button size*/
+    height: 3em;
+}
+
+.great {
+    /*paragraph adjustment*/
+    height: 2em;
+    font-size: 1.5em;
+    color: rgb(89, 89, 89);
+}
+
+.insuranceCalculator {
+    /*calculator/input box. flexing center*/
+    background-color: rgba(209, 209, 224, 0.9);
+    border: solid;
+    border-color: lightgrey;
+    height: 79%;
+    display: flex;
+    justify-content: center;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding-top: 2em;
+}
+
+.col {
+    /*flexing column, so one input is under each other*/
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#result {
+    display: none;
+    font-size: 1.5em;
+    color: rgb(51, 146, 53);
+}
+
+.wrap1 {
+    width: 25em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrap2 {
+    width: 25em;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
+
+#submit {
+    /*adjusting submit button*/
+    width: 8em;
+    height: 2em;
+    border: 5px;
+    border-radius: 8px;
+    background-color: rgb(51, 146, 53);
+    color: white;
+    font-size: 1em;
+}
+
+.uncomp {
+    /*text div under calculator*/
+    color: rgb(89, 89, 89);
+    text-align: center;
+    background-color: rgb(233, 226, 226);
+    padding: 1em;
+}
+
+.bigFont {
+    /*part of the text div*/
+    font-size: 2em;
+    margin: 0;
+}
+
+.info {
+    /*adjusting 2 info boxes*/
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: 20em;
+    border-top: 2px solid black;
+    border-right: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    border-left: 2px solid lightgray;
+    padding: 1.5em;
+    margin-top: 2em;
+    color: #4d4d4d;
+}
+
+.font1 {
+    margin-bottom: 0;
+    font-size: 1.5em;
+    color: #3C5882;
+}
+
+.font2 {
+    font-weight: bold;
+    color: black;
+}
+
+.font3 {
+    color: #b3b3b3;
+}
+
+.tick {
+    color: lightseagreen;
+}
+
+.footer {
+    margin-top: 2em;
+    color: white;
+    background-color: rgb(23, 23, 23);
+    height: 8em;
+    padding: 1em;
+}
+
+.NavBot {
+    padding-left: 0;
+}
+
+.Credits {
+    text-align: center;
+}
+
+.logoright {
+    display: flex;
+    justify-content: flex-end;
+}
