@@ -1,12 +1,12 @@
-.Container {
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
 body {
     font-family: 'Oswald', sans-serif;
     width: 100%;
     margin: 0;
+}
+
+.Container {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .Header {
@@ -61,7 +61,7 @@ a:hover {
 }
 
 .carInsurance {
-    /*img back, centered*/
+    /*background img, centered*/
     background-image: url("C:/Users/Chris/Desktop/LMSCF-ChristinaRenieris-CodeReview-03/IMG/traffic.jpg");
     background-position: center;
     background-size: cover;
@@ -215,4 +215,69 @@ a:hover {
 .logoright {
     display: flex;
     justify-content: flex-end;
+}
+
+@media only screen and (max-width: 800px) {
+    .Container {
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+    }
+    .hidbanner {
+        display: none;
+    }
+    .Header {
+        display: flex;
+        justify-content: center;
+    }
+    .carInsurance {
+        height: 40em;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+    .insuranceCalculator {
+        padding-top: 0;
+    }
+    .wrap1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .wrap2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .col {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .input {
+        width: 100%;
+    }
+    .input>input,
+    .input>select {
+        width: 80%;
+    }
+    .col {
+        height: 100%;
+    }
+    .box {
+        width: 70%;
+        margin: 0;
+    }
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box {
+        margin-top: 1em;
+        box-shadow: 2px 2px lightgray;
+    }
+    .Logo2 {
+        display: none;
+    }
+    .footer {
+        height: 5em;
+    }
 }
