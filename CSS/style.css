@@ -118,7 +118,7 @@ a:hover {
 
 #result {
     display: none;
-    font-size: 1.5em;
+    font-size: 2em;
     color: rgb(51, 146, 53);
 }
 
@@ -280,4 +280,45 @@ a:hover {
     .footer {
         height: 5em;
     }
+}
+
+
+/*team.html style*/
+
+.footerTeam {
+    margin-top: 0;
+    color: white;
+    background-color: rgb(23, 23, 23);
+    height: 8em;
+    padding: 1em;
+}
+
+#main {
+    background-image: url("C:/Users/Chris/Desktop/LMSCF-ChristinaRenieris-CodeReview-03/IMG/traffic.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/*team members div style*/
+
+.memberIMG {
+    width: 30em;
+}
+
+.member {
+    width: 30em;
+}
+
+.memberStyle {
+    padding: 0.5em;
+    height: 4.5em;
+    background-color: lightgray;
 }

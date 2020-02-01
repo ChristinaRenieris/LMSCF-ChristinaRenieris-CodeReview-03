@@ -1,0 +1,12 @@
+data = `[{
+"name": "Shiva",
+"age": "4",
+"email": "shiva@fluff.com",
+"image": "IMG/shiva.jpg"
+}, {
+    "name": "Morty",
+    "age": "3",
+    "email": "morty@beans.com",
+    "image": "IMG/morty.jpg"
+}]
+`;
