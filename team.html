@@ -50,7 +50,7 @@
         for (var i = 0; i < team.length; i++) {
 
             var member = `<div onclick="memberInfo${team[i].name}()" class="member${team[i].name}"><img  class="memberIMG" src="${team[i].image}" alt="${team[i].name}">
-                <p class="memberStyle" style= "display: none;"  id = "memberDetails${team[i].name}"> Name: ${team[i].name} <br> Age:${team[i].age} <br> Email: ${team[i].email}</p> </div>`;
+                <p class="memberStyle" style= "display: none;"  id = "memberDetails${team[i].name}"> Name : ${team[i].name} <br> Age : ${team[i].age} <br> Email : ${team[i].email}</p> </div>`;
 
             document.getElementById('main').innerHTML += member;
         }
